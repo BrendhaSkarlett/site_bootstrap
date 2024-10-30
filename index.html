@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hamburgueria Virtual</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css"> <!-- Se você tiver um CSS customizado -->
     <style>
         header {
@@ -42,246 +42,316 @@
         </div>
     </nav>
 
-    <header></header>
-    <img src="img/anuncio 5.jpg" class="img-fluid" alt="... ">
-    <div class="title-site">
-        <h1>Skarlett's</h1>
-        <p>Deliciosos hambúrgueres feitos com amor!</p>
-    </div>
-
-
-    </header>
-
+    <header>
+        <img src="img/anuncio2.jpg" class="img-fluid" alt="Anúncio Skarlett's">
+        <div class="title-site text-center">
+            <h1>Skarlett's</h1>
+            <p>Deliciosos hambúrgueres feitos com amor!</p>
+        </div>
+    </header>    
+    
     <div class="container mt-5">
         <h2>Nosso Menu</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <img src="img/bob1.png" class="card-img-top" alt="Baconzudo Chicken Crispy">
-                    <div class="card-body">
-                        <h5 class="card-title">Baconzudo Chicken Crispy</h5>
-                        <p class="card-text"></p>
-                        <p class="font-weight-bold">R$ 25,00</p>
-                        <a href="#" class="btn btn-primary">Comprar</a>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bac">
-                            Saiba mais
-                        </button>
-                    </div>
+        <!-- Comidas Section -->
+    <h3>Comidas</h3>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="img/bob1.png" class="card-img-top" alt="Baconzudo Chicken Crispy">
+                <div class="card-body">
+                    <h5 class="card-title">Baconzudo Chicken Crispy</h5>
+                    <p class="font-weight-bold">R$ 25,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bac">
+                        Saiba mais
+                    </button>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <img src="img/bob2.png" class="card-img-top" alt="Crispy Bacon Salad">
-                    <div class="card-body">
-                        <h5 class="card-title">Crispy Bacon Salad</h5>
-                        <p class="card-text"></p>
-                        <p class="font-weight-bold">R$ 30,00</p>
-                        <a href="#" class="btn btn-primary">Comprar</a>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cb">
-                            Saiba mais
-                        </button>
-                    </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="img/bob2.png" class="card-img-top" alt="Crispy Bacon Salad">
+                <div class="card-body">
+                    <h5 class="card-title">Crispy Bacon Salad</h5>
+                    <p class="font-weight-bold">R$ 30,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cb">
+                        Saiba mais
+                    </button>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <img src="img/bob3.png" class="card-img-top" alt="Baconzudo Cheddar">
-                    <div class="card-body">
-                        <h5 class="card-title">Baconzudo Cheddar</h5>
-                        <p class="card-text"></p>
-                        <p class="font-weight-bold">R$ 35,00</p>
-                        <a href="#" class="btn btn-primary">Comprar</a>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ba">
-                            Saiba mais
-                        </button>
-                    </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="img/bacon.png" class="card-img-top" alt="Crispy Bacon">
+                <div class="card-body">
+                    <h5 class="card-title">Crispy Bacon</h5>
+                    <p class="font-weight-bold">R$ 35,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ba">
+                        Saiba mais
+                    </button>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <img src="img/bob 4.png" class="card-img-top" alt="Crispy Bacon Salad">
-                    <div class="card-body">
-                        <h5 class="card-title">Crispy Bacon Salad</h5>
-                        <p class="card-text"></p>
-                        <p class="font-weight-bold">R$ 35,00</p>
-                        <a href="#" class="btn btn-primary">Comprar</a>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#xfrango">
-                            Saiba mais
-                        </button>
-                    </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="img/bob4.png" class="card-img-top" alt="Baconzudo Salad">
+                <div class="card-body">
+                    <h5 class="card-title">Baconzudo Salad</h5>
+                    <p class="font-weight-bold">R$ 35,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#s">
+                        Saiba mais
+                    </button>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <img src="img/bob 5.png" class="card-img-top" alt="Bob's Bacon de Responsa">
-                    <div class="card-body">
-                        <h5 class="card-title">Bob's Bacon de Responsa</h5>
-                        <p class="card-text"> </p>
-                        <p class="font-weight-bold">R$ 35,00</p>
-                        <a href="#" class="btn btn-primary">Comprar</a>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#xfrango">
-                            Saiba mais
-                        </button>
-                    </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="img/bob5.png" class="card-img-top" alt="Bob's Bacon de Responsa">
+                <div class="card-body">
+                    <h5 class="card-title">Bob's Bacon de Responsa</h5>
+                    <p class="font-weight-bold">R$ 35,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bbr">
+                        Saiba mais
+                    </button>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <img src="img/bob 6.png" class="card-img-top" alt="Big Rock">
-                    <div class="card-body">
-                        <h5 class="card-title">Big Rock</h5>
-                        <p class="card-text"></p>
-                        <p class="font-weight-bold">R$ 35,00</p>
-                        <a href="#" class="btn btn-primary">Comprar</a>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#xfrango">
-                            Saiba mais
-                        </button>
-                    </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="img/bob6.png" class="card-img-top" alt="Big Rock">
+                <div class="card-body">
+                    <h5 class="card-title">Big Rock</h5>
+                    <p class="font-weight-bold">R$ 35,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#br">
+                        Saiba mais
+                    </button>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <img src="img/bob 7.png" class="card-img-top" alt="Big Bob">
-                    <div class="card-body">
-                        <h5 class="card-title">Big Bob</h5>
-                        <p class="card-text"></p>
-                        <p class="font-weight-bold">R$ 35,00</p>
-                        <a href="#" class="btn btn-primary">Comprar</a>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#xfrango">
-                            Saiba mais
-                        </button>
-                    </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="img/bob7.png" class="card-img-top" alt="Big Bob">
+                <div class="card-body">
+                    <h5 class="card-title">Big Bob</h5>
+                    <p class="font-weight-bold">R$ 30,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bb">
+                        Saiba mais
+                    </button>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <img src="img/bob 8.png" class="card-img-top" alt="Double Cheese">
-                    <div class="card-body">
-                        <h5 class="card-title">Double Cheese</h5>
-                        <p class="card-text"></p>
-                        <p class="font-weight-bold">R$ 35,00</p>
-                        <a href="#" class="btn btn-primary">Comprar</a>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#xfrango">
-                            Saiba mais
-                        </button>
-                    </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="img/bob8.png" class="card-img-top" alt="Cheddar Australiano">
+                <div class="card-body">
+                    <h5 class="card-title">Cheddar Australiano</h5>
+                    <p class="font-weight-bold">R$ 35,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ca">
+                        Saiba mais
+                    </button>
                 </div>
             </div>
-           
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <img src="img/aguaaaaaaaaaaaaaa.webp" class="card-img-top" alt="Água mineral">
-                    <div class="card-body">
-                        <h5 class="card-title">Água mineral</h5>
-                        <p class="card-text"></p>
-                        <p class="font-weight-bold">R$ 35,00</p>
-                        <a href="#" class="btn btn-primary">Comprar</a>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#xfrango">
-                            Saiba mais
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <img src="img/bob 9.png" class="card-img-top" alt="Double Cheese">
-                    <div class="card-body">
-                        <h5 class="card-title">Double Cheese</h5>
-                        <p class="card-text"></p>
-                        <p class="font-weight-bold">R$ 35,00</p>
-                        <a href="#" class="btn btn-primary">Comprar</a>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#xfrango">
-                            Saiba mais
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <img src="img/bob 9.png" class="card-img-top" alt="Double Cheese">
-                    <div class="card-body">
-                        <h5 class="card-title">Double Cheese</h5>
-                        <p class="card-text"></p>
-                        <p class="font-weight-bold">R$ 35,00</p>
-                        <a href="#" class="btn btn-primary">Comprar</a>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#xfrango">
-                            Saiba mais
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <img src="img/bob 9.png" class="card-img-top" alt="Double Cheese">
-                    <div class="card-body">
-                        <h5 class="card-title">Double Cheese</h5>
-                        <p class="card-text"></p>
-                        <p class="font-weight-bold">R$ 35,00</p>
-                        <a href="#" class="btn btn-primary">Comprar</a>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#xfrango">
-                            Saiba mais
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <img src="img/bob 9.png" class="card-img-top" alt="Double Cheese">
-                    <div class="card-body">
-                        <h5 class="card-title">Double Cheese</h5>
-                        <p class="card-text"></p>
-                        <p class="font-weight-bold">R$ 35,00</p>
-                        <a href="#" class="btn btn-primary">Comprar</a>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#xfrango">
-                            Saiba mais
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <img src="img/bob 9.png" class="card-img-top" alt="Double Cheese">
-                    <div class="card-body">
-                        <h5 class="card-title">Double Cheese</h5>
-                        <p class="card-text"></p>
-                        <p class="font-weight-bold">R$ 35,00</p>
-                        <a href="#" class="btn btn-primary">Comprar</a>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#xfrango">
-                            Saiba mais
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <img src="img/bob 9.png" class="card-img-top" alt="Double Cheese">
-                    <div class="card-body">
-                        <h5 class="card-title">Double Cheese</h5>
-                        <p class="card-text"></p>
-                        <p class="font-weight-bold">R$ 35,00</p>
-                        <a href="#" class="btn btn-primary">Comprar</a>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#xfrango">
-                            Saiba mais
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <img src="img/bob 9.png" class="card-img-top" alt="Double Cheese">
-                    <div class="card-body">
-                        <h5 class="card-title">Double Cheese</h5>
-                        <p class="card-text"></p>
-                        <p class="font-weight-bold">R$ 35,00</p>
-                        <a href="#" class="btn btn-primary">Comprar</a>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#xfrango">
-                            Saiba mais
-                        </button>
-                    </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="img/bob9.png" class="card-img-top" alt="Double Cheese">
+                <div class="card-body">
+                    <h5 class="card-title">Double Cheese</h5>
+                    <p class="font-weight-bold">R$ 35,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#1">
+                        Saiba mais
+                    </button>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Bebidas Section -->
+    <h3>Bebidas</h3>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="img/refrigerantes.jpg" class="card-img-top" alt="Refrigerantes">
+                <div class="card-body">
+                    <h5 class="card-title">Refrigerantes</h5>
+                    <p class="font-weight-bold">R$ 35,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#2">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="img/agua.webp" class="card-img-top" alt="Água Mineral">
+                <div class="card-body">
+                    <h5 class="card-title">Água Mineral</h5>
+                    <p class="font-weight-bold">R$ 3,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#xfrango">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="img/sucos.jpg" class="card-img-top" alt="Sucos">
+                <div class="card-body">
+                    <h5 class="card-title">Sucos</h5>
+                    <p class="font-weight-bold">R$ 35,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#xfrango">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+        </div> 
+           <!-- Sobremesas Section -->
+    <h3>Sobremesas</h3>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="img/s2.png" class="card-img-top" alt="Milk Shake">
+                <div class="card-body">
+                    <h5 class="card-title">Milk Shake</h5>
+                    <p class="font-weight-bold">R$ 35,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#xfrango">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="img/s1.png" class="card-img-top" alt="Colherudo Shake Nuts Café">
+                <div class="card-body">
+                    <h5 class="card-title">Colherudo Shake Nuts Café</h5>
+                    <p class="font-weight-bold">R$ 35,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#xfrango">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="img/s3.png" class="card-img-top" alt="Milk Shake ChocoCafé">
+                <div class="card-body">
+                    <h5 class="card-title">Milk Shake ChocoCafé</h5>
+                    <p class="font-weight-bold">R$ 35,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#xfrango">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="img/s4.jpg" class="card-img-top" alt="Colherudo Shake Morango">
+                <div class="card-body">
+                    <h5 class="card-title">Colherudo Shake Morango</h5>
+                    <p class="font-weight-bold">R$ 35,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#xfrango">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="img/s5.jpg" class="card-img-top" alt="Colherudo Max Morango">
+                <div class="card-body">
+                    <h5 class="card-title">Colherudo Max Morango</h5>
+                    <p class="font-weight-bold">R$ 35,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#xfrango">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="img/s6.jpg" class="card-img-top" alt="Colherudo Shake Nuts">
+                <div class="card-body">
+                    <h5 class="card-title">Colherudo Shake Nuts</h5>
+                    <p class="font-weight-bold">R$ 35,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#xfrango">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="img/cb.jpg" class="card-img-top" alt="Casquinha Baunilha">
+                <div class="card-body">
+                    <h5 class="card-title">Casquinha Baunilha</h5>
+                    <p class="font-weight-bold">R$ 35,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#xfrango">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="img/cc.jpg" class="card-img-top" alt="Casquinha Chocolate">
+                <div class="card-body">
+                    <h5 class="card-title">Casquinha Chocolate</h5>
+                    <p class="font-weight-bold">R$ 35,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#xfrango">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="img/cm.jpg" class="card-img-top" alt="Casquinha Mista">
+                <div class="card-body">
+                    <h5 class="card-title">Casquinha Mista</h5>
+                    <p class="font-weight-bold">R$ 35,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#xfrango">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="img/cr.jpg" class="card-img-top" alt="Casquinha Recheada">
+                <div class="card-body">
+                    <h5 class="card-title">Casquinha Recheada</h5>
+                    <p class="font-weight-bold">R$ 35,00</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#xfrango">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
     <div class="modal fade" id="bac" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -301,8 +371,6 @@
             </div>
         </div>
     </div>
-    <footer class="bg-dark text-white text-center py-4">
-        <p>&copy; 2024 Hamburgueria Virtual. Todos os direitos reservados.</p>
         <div class="modal fade" id="cb" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -322,27 +390,234 @@
             </div>
         </div>
     </div>
-    <footer class="bg-dark text-white text-center py-4">
-        <p>&copy; 2024 Hamburgueria Virtual. Todos os direitos reservados.</p>
-        <div class="modal fade" id="ba" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Baconzudo Cheddar</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    Suculento hambúrguer de carne 100% bovina, molho cremoso sabor cheddar, o dobro de fatias de bacon, tudo isso em um pão brioche quentinho.
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                </div>
+    <div class="modal fade" id="ba" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Crispy Bacon</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Feito com dois empanados de frango supercrocantes, queijo e bacon, acompanhados da nossa deliciosa maionese, no pão macio.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
             </div>
         </div>
     </div>
+</div>
+<div class="modal fade" id="s" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Baconzudo Salad</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            Hambúrguer de carne 100% bovina, maionese sabor bacon, o dobro de fatias de bacon, nosso molho sabor costela e alface, em um pão brioche quentinho.
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+    </div>
+</div>
+</div>
+<div class="modal fade" id="bbr" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Bob's Bacon de Responsa</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            A deliciosa maionese sabor bacon, alface, tomate e cebola fresquinhos mais tiras de bacon crocante combinados com hambúrguer bovino, queijo e pão com gergelim.
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+    </div>
+</div>
+</div>
+<div class="modal fade" id="br" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Big Rock</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            Dois suculentos hambúrgueres bovinos, queijo, molho Big Bob Original, em um pão quentinho com gergelim.
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+    </div>
+</div>
+</div>
+<div class="modal fade" id="bb" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Big Bob</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            São dois hambúrgueres bovinos, queijo, alface e cebola fresquinhos e molho Big Bob original, num pão quentinho com gergelim.
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+    </div>
+</div>
+</div>
+<div class="modal fade" id="ca" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Cheddar Australiano</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            Dois hambúrgueres bovinos num pão australiano levemente adocicado, com cheddar supercremoso e cebola caramelizada ao shoyu.
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+    </div>
+</div>
+</div>
+<div class="modal fade" id="1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Double Cheese</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            Dois hambúrgueres bovinos com queijo num pão quentinho.
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+    </div>
+</div>
+</div>
+<div class="modal fade" id="bbr" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Bob's Bacon de Responsa</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            A deliciosa maionese sabor bacon, alface, tomate e cebola fresquinhos mais tiras de bacon crocante combinados com hambúrguer bovino, queijo e pão com gergelim.
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+    </div>
+</div>
+</div>
+<div class="modal fade" id="bbr" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Bob's Bacon de Responsa</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            A deliciosa maionese sabor bacon, alface, tomate e cebola fresquinhos mais tiras de bacon crocante combinados com hambúrguer bovino, queijo e pão com gergelim.
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+    </div>
+</div>
+</div>
+<div class="modal fade" id="bbr" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Bob's Bacon de Responsa</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            A deliciosa maionese sabor bacon, alface, tomate e cebola fresquinhos mais tiras de bacon crocante combinados com hambúrguer bovino, queijo e pão com gergelim.
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+    </div>
+</div>
+</div>
+<div class="modal fade" id="bbr" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Bob's Bacon de Responsa</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            A deliciosa maionese sabor bacon, alface, tomate e cebola fresquinhos mais tiras de bacon crocante combinados com hambúrguer bovino, queijo e pão com gergelim.
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+    </div>
+</div>
+</div>
+<div class="modal fade" id="2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Refrigerantes</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            Linha completa de refrigerantes Coca-Cola.
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+    </div>
+</div>
+</div>
     <footer class="bg-dark text-white text-center py-4">
         <p>&copy; 2024 Hamburgueria Virtual. Todos os direitos reservados.</p>
     </footer>

@@ -7,8 +7,7 @@ body {
     object-fit: cover;
 }
 
-.title-site{
-    position: relative;
-    font-size: 50pt;
+.title-site {
+    color: white; /* Cor do texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.87); /* Sombra para destacar o texto */
 }
-
